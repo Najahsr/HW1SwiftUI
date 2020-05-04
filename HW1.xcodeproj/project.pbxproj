@@ -15,6 +15,8 @@
 		5954756E245E08A50097ECC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5954756C245E08A50097ECC6 /* LaunchScreen.storyboard */; };
 		59547579245E08A50097ECC6 /* HW1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59547578245E08A50097ECC6 /* HW1Tests.swift */; };
 		59547584245E08A50097ECC6 /* HW1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59547583245E08A50097ECC6 /* HW1UITests.swift */; };
+		59547594245E26A20097ECC6 /* HW1p2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59547593245E26A20097ECC6 /* HW1p2.swift */; };
+		59547598245F5EFA0097ECC6 /* HWp3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59547597245F5EFA0097ECC6 /* HWp3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5954757F245E08A50097ECC6 /* HW1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59547583245E08A50097ECC6 /* HW1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW1UITests.swift; sourceTree = "<group>"; };
 		59547585245E08A50097ECC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59547593245E26A20097ECC6 /* HW1p2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW1p2.swift; sourceTree = "<group>"; };
+		59547597245F5EFA0097ECC6 /* HWp3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWp3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		59547555245E08A00097ECC6 = {
 			isa = PBXGroup;
 			children = (
+				59547597245F5EFA0097ECC6 /* HWp3.swift */,
 				59547560245E08A00097ECC6 /* HW1 */,
 				59547577245E08A50097ECC6 /* HW1Tests */,
 				59547582245E08A50097ECC6 /* HW1UITests */,
@@ -106,6 +111,7 @@
 				5954756C245E08A50097ECC6 /* LaunchScreen.storyboard */,
 				5954756F245E08A50097ECC6 /* Info.plist */,
 				59547569245E08A50097ECC6 /* Preview Content */,
+				59547593245E26A20097ECC6 /* HW1p2.swift */,
 			);
 			path = HW1;
 			sourceTree = "<group>";
@@ -267,9 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59547594245E26A20097ECC6 /* HW1p2.swift in Sources */,
 				59547562245E08A00097ECC6 /* AppDelegate.swift in Sources */,
 				59547564245E08A00097ECC6 /* SceneDelegate.swift in Sources */,
 				59547566245E08A00097ECC6 /* ContentView.swift in Sources */,
+				59547598245F5EFA0097ECC6 /* HWp3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
